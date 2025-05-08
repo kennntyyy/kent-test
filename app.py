@@ -5,9 +5,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return ("<p>Kent Paunt Vergara</p>"
+    return ("<p>Kent Paul Vergara</p>"
             "<p>BSIT - 3</p>"
-            "<p>Sytem Integration</p>")
+            "<p>System Integration</p>"
+            "<p>Semi-Final Exam</p>")
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
